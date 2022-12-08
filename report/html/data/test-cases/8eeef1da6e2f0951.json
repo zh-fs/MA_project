@@ -1,0 +1,424 @@
+{
+  "uid" : "8eeef1da6e2f0951",
+  "name" : "test_content_create_old_intro_old_form_apply",
+  "fullName" : "testcase.content.test_content.Test_content#test_content_create_old_intro_old_form_apply",
+  "historyId" : "59110e34f95549fce81f653ddcb8e61a",
+  "time" : {
+    "start" : 1670470869200,
+    "stop" : 1670470882013,
+    "duration" : 12813
+  },
+  "description" : "\n        测试用例描述：内容老简介页、老报名表单\n        测试步骤：\n                1、先登录\n                2、进入到我的内容列表\n                3、报名\n        ",
+  "descriptionHtml" : "<pre><code>    测试用例描述：内容老简介页、老报名表单\n    测试步骤：\n            1、先登录\n            2、进入到我的内容列表\n            3、报名\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1670470803879,
+      "stop" : 1670470811822,
+      "duration" : 7943
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1670470806244,
+        "stop" : 1670470811822,
+        "duration" : 5578
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "打开网址",
+        "time" : {
+          "start" : 1670470806244,
+          "stop" : 1670470807433,
+          "duration" : 1189
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "输入账号：18874080626@139.com",
+        "time" : {
+          "start" : 1670470807433,
+          "stop" : 1670470807552,
+          "duration" : 119
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "输入密码:abc123",
+        "time" : {
+          "start" : 1670470807552,
+          "stop" : 1670470807637,
+          "duration" : 85
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击登录按钮",
+        "time" : {
+          "start" : 1670470807638,
+          "stop" : 1670470808122,
+          "duration" : 484
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "进入MA工作台",
+        "time" : {
+          "start" : 1670470809745,
+          "stop" : 1670470810098,
+          "duration" : 353
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  }, {
+    "name" : "xunit_setup_class_fixture_Test_content",
+    "time" : {
+      "start" : 1670470869200,
+      "stop" : 1670470869200,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        测试用例描述：内容老简介页、老报名表单\n        测试步骤：\n                1、先登录\n                2、进入到我的内容列表\n                3、报名\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开的页面网址是https://wx.vipmaillist.com/contentMarketing/toContentList",
+      "time" : {
+        "start" : 1670470869200,
+        "stop" : 1670470869678,
+        "duration" : 478
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击上传内容按钮",
+      "time" : {
+        "start" : 1670470869678,
+        "stop" : 1670470873767,
+        "duration" : 4089
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入内容昵称2022-12-08 11:41:13.766700自动化内容测试数据",
+      "time" : {
+        "start" : 1670470873767,
+        "stop" : 1670470873941,
+        "duration" : 174
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入内容标题2022-12-08 11:41:13.766700自动化内容测试数据",
+      "time" : {
+        "start" : 1670470873942,
+        "stop" : 1670470874093,
+        "duration" : 151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "上传内容封面",
+      "time" : {
+        "start" : 1670470874093,
+        "stop" : 1670470876802,
+        "duration" : 2709
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "设置内容页面",
+        "time" : {
+          "start" : 1670470875832,
+          "stop" : 1670470876003,
+          "duration" : 171
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击输入框后进行输入",
+        "time" : {
+          "start" : 1670470876003,
+          "stop" : 1670470876699,
+          "duration" : 696
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "输入完后点击保存",
+        "time" : {
+          "start" : 1670470876699,
+          "stop" : 1670470876802,
+          "duration" : 103
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "上传资料",
+      "time" : {
+        "start" : 1670470876802,
+        "stop" : 1670470878522,
+        "duration" : 1720
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "允许PC端报名下载资料",
+      "time" : {
+        "start" : 1670470878523,
+        "stop" : 1670470878652,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击内容发布按钮",
+      "time" : {
+        "start" : 1670470878652,
+        "stop" : 1670470878828,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击确认发布按钮",
+      "time" : {
+        "start" : 1670470878829,
+        "stop" : 1670470881417,
+        "duration" : 2588
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "判断内容是否新建成功",
+      "time" : {
+        "start" : 1670470881417,
+        "stop" : 1670470882013,
+        "duration" : 596
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_content::0",
+    "time" : {
+      "start" : 1670470882014,
+      "stop" : 1670470882014,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1670470899238,
+      "stop" : 1670470901851,
+      "duration" : 2613
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "内容模块"
+  }, {
+    "name" : "feature",
+    "value" : "内容表单测试模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.content"
+  }, {
+    "name" : "suite",
+    "value" : "test_content"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_content"
+  }, {
+    "name" : "host",
+    "value" : "MS-20150602MKYO"
+  }, {
+    "name" : "thread",
+    "value" : "10120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.content.test_content"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8eeef1da6e2f0951.json",
+  "parameterValues" : [ ]
+}

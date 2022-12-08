@@ -1,0 +1,32 @@
+#logger:
+# filename: /lib/log/focussendAPI.log
+#  #日志级别必须大写：DEBUG,INFO,WARNING,ERROR
+#  level: DEBUG
+#  # 日志记录方式 a: append 追加   w: write 覆盖
+#  filemode: w
+#  format: "%(asctime)s - %(levelname)s - %(message)s"
+#  #%(leveono)s : 打印日志级别的数值  %(levelname)s：打印日志级别的名字
+#  #%(pathname)s: 打印当前执行程序的路径，其实就是sys.argv[0]
+#  #%(filename)s: 打印当前执行的程序名， %(funcname)s：打印当前函数
+#  #%(lineno)s: 打印日志行号，%(asctime)s：打印当前时间
+#  #%(thread)d: 打印线程ID， %(threadName)s: 打印线程名称
+#  #%(process)d: 打印进程ID  %(message)s:打印日志信息
+#  datefmt: "%Y-%m-%d %H:%M:%S"
+
+mail:
+  serveraddr: smtp.qq.com
+  username: 813870186@qq.com
+  password: julbdlkfskonbfcf
+    ## QQ邮箱配置同网易邮箱，需要手动开启IMAP/SMTP 服务来获取授权码
+    #收件人列表
+  to: 813870186@qq.com,hangzhou@focussend.com
+    #抄送人列表
+  cc: 813870186@qq.com,hangzhou@focussend.com
+    #title
+  mail_subject: 自动化测试结果
+    #如果需要发送附件，需要给路径，可以多发
+    #注意：邮件发送附件需要绝对路径
+
+#read_excel:
+
+

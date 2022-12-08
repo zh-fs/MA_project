@@ -1,0 +1,25 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="testcase.test_connect.Test_bm.load" />
+          <option value="testcase.test_1.excel_table_index" />
+          <option value="Tkinter" />
+          <option value="testcase.Test_Login.wait" />
+          <option value="allmodule.webtv_module.mywebtv_page.basepage" />
+          <option value="allmodule.allmodule_op.login_module_op.login_op.username_input" />
+          <option value="allmodule.allmodule_op.login_module_op.login_op.password_input" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

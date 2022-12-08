@@ -1,0 +1,81 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MS-20150602MKYO",
+    "children" : [ {
+      "name" : "10120-MainThread",
+      "children" : [ {
+        "name" : "test_activity_create_new_form_apply",
+        "uid" : "845a7b0d9fcadff3",
+        "parentUid" : "887c177b00cfc3715ff24ad620f1708d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1670470849317,
+          "stop" : 1670470867028,
+          "duration" : 17711
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_old_webtv_create_apply",
+        "uid" : "b8148bafbbecdeed",
+        "parentUid" : "887c177b00cfc3715ff24ad620f1708d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1670470811824,
+          "stop" : 1670470846978,
+          "duration" : 35154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_content_create_old_intro_old_form_apply",
+        "uid" : "8eeef1da6e2f0951",
+        "parentUid" : "887c177b00cfc3715ff24ad620f1708d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1670470869200,
+          "stop" : 1670470882013,
+          "duration" : 12813
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_contentcenter_create_new_form_apply",
+        "uid" : "d52dc0554bdc3205",
+        "parentUid" : "887c177b00cfc3715ff24ad620f1708d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1670470882019,
+          "stop" : 1670470896560,
+          "duration" : 14541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "887c177b00cfc3715ff24ad620f1708d"
+    } ],
+    "uid" : "0bcbc2744cb7d43447d596ccb20cc797"
+  } ]
+}

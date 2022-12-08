@@ -1,0 +1,754 @@
+{
+  "uid" : "b8148bafbbecdeed",
+  "name" : "test_old_webtv_create_apply",
+  "fullName" : "testcase.Webtv.test_webtv.Test_WebTv#test_old_webtv_create_apply",
+  "historyId" : "89a2a68583d7efa7a0f641988a5d7e9d",
+  "time" : {
+    "start" : 1670470811824,
+    "stop" : 1670470846978,
+    "duration" : 35154
+  },
+  "description" : "\n        测试用例描述：\n        测试步骤：\n                1、先登录\n                2、进入到直播列表\n                3、创建直播\n                4、设置直播报名表单\n                5、报名\n        ",
+  "descriptionHtml" : "<pre><code>    测试用例描述：\n    测试步骤：\n            1、先登录\n            2、进入到直播列表\n            3、创建直播\n            4、设置直播报名表单\n            5、报名\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1670470803879,
+      "stop" : 1670470811822,
+      "duration" : 7943
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1670470806244,
+        "stop" : 1670470811822,
+        "duration" : 5578
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "打开网址",
+        "time" : {
+          "start" : 1670470806244,
+          "stop" : 1670470807433,
+          "duration" : 1189
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "输入账号：18874080626@139.com",
+        "time" : {
+          "start" : 1670470807433,
+          "stop" : 1670470807552,
+          "duration" : 119
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "输入密码:abc123",
+        "time" : {
+          "start" : 1670470807552,
+          "stop" : 1670470807637,
+          "duration" : 85
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击登录按钮",
+        "time" : {
+          "start" : 1670470807638,
+          "stop" : 1670470808122,
+          "duration" : 484
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "进入MA工作台",
+        "time" : {
+          "start" : 1670470809745,
+          "stop" : 1670470810098,
+          "duration" : 353
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  }, {
+    "name" : "xunit_setup_class_fixture_Test_WebTv",
+    "time" : {
+      "start" : 1670470811822,
+      "stop" : 1670470811822,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        测试用例描述：\n        测试步骤：\n                1、先登录\n                2、进入到直播列表\n                3、创建直播\n                4、设置直播报名表单\n                5、报名\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开直播列表页面",
+      "time" : {
+        "start" : 1670470811824,
+        "stop" : 1670470812530,
+        "duration" : 706
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "打开的页面网址是https://wx.vipmaillist.com/webtvInfo/toWebtvInfo",
+        "time" : {
+          "start" : 1670470811824,
+          "stop" : 1670470812530,
+          "duration" : 706
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "新建直播",
+      "time" : {
+        "start" : 1670470812530,
+        "stop" : 1670470826732,
+        "duration" : 14202
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "直播页面点击新建直播",
+        "time" : {
+          "start" : 1670470812530,
+          "stop" : 1670470818819,
+          "duration" : 6289
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "选择类型",
+        "time" : {
+          "start" : 1670470818819,
+          "stop" : 1670470819133,
+          "duration" : 314
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "输入直播地址",
+        "time" : {
+          "start" : 1670470819133,
+          "stop" : 1670470819251,
+          "duration" : 118
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "直播名字是2022-12-08 11:40:19.250582自动化直播测试数据",
+        "time" : {
+          "start" : 1670470819251,
+          "stop" : 1670470819391,
+          "duration" : 140
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "设置直播开始时间:2022-12-08 11:40:19",
+        "time" : {
+          "start" : 1670470819391,
+          "stop" : 1670470819689,
+          "duration" : 298
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "设置直播结束时间:2022-12-15 11:40:19",
+        "time" : {
+          "start" : 1670470819689,
+          "stop" : 1670470820008,
+          "duration" : 319
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "上传封面图片:D:\\MA_project\\img\\testimage.png",
+        "time" : {
+          "start" : 1670470820008,
+          "stop" : 1670470822134,
+          "duration" : 2126
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击设置内容简介页",
+        "time" : {
+          "start" : 1670470822134,
+          "stop" : 1670470822969,
+          "duration" : 835
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击输入框后进行输入",
+        "time" : {
+          "start" : 1670470822969,
+          "stop" : 1670470823150,
+          "duration" : 181
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "输入完后点击保存",
+        "time" : {
+          "start" : 1670470823150,
+          "stop" : 1670470823272,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "发布直播",
+        "time" : {
+          "start" : 1670470823272,
+          "stop" : 1670470823675,
+          "duration" : 403
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击完成",
+        "time" : {
+          "start" : 1670470823675,
+          "stop" : 1670470826019,
+          "duration" : 2344
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 12,
+      "hasContent" : true
+    }, {
+      "name" : "设置表单",
+      "time" : {
+        "start" : 1670470826732,
+        "stop" : 1670470838040,
+        "duration" : 11308
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "点击设置表单按钮",
+        "time" : {
+          "start" : 1670470826732,
+          "stop" : 1670470827830,
+          "duration" : 1098
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击设置表单内容按钮",
+        "time" : {
+          "start" : 1670470827831,
+          "stop" : 1670470827984,
+          "duration" : 153
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "新建表单选择内型：新编辑器表单",
+        "time" : {
+          "start" : 1670470827984,
+          "stop" : 1670470828645,
+          "duration" : 661
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "设置新编辑器表单内容操作",
+        "time" : {
+          "start" : 1670470828645,
+          "stop" : 1670470832337,
+          "duration" : 3692
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "选择表单空白模板",
+          "time" : {
+            "start" : 1670470828645,
+            "stop" : 1670470830268,
+            "duration" : 1623
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "选择表单位置",
+          "time" : {
+            "start" : 1670470831878,
+            "stop" : 1670470832022,
+            "duration" : 144
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "选择系统表单",
+          "time" : {
+            "start" : 1670470832022,
+            "stop" : 1670470832118,
+            "duration" : 96
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "添加表单",
+          "time" : {
+            "start" : 1670470832118,
+            "stop" : 1670470832245,
+            "duration" : 127
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "发布表单",
+          "time" : {
+            "start" : 1670470832245,
+            "stop" : 1670470832337,
+            "duration" : 92
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 5,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 9,
+      "hasContent" : true
+    }, {
+      "name" : "填写表单且报名",
+      "time" : {
+        "start" : 1670470838040,
+        "stop" : 1670470846978,
+        "duration" : 8938
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "打開直播表单页",
+        "time" : {
+          "start" : 1670470844362,
+          "stop" : 1670470844708,
+          "duration" : 346
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "报名",
+        "time" : {
+          "start" : 1670470844708,
+          "stop" : 1670470846978,
+          "duration" : 2270
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "跳到最后一个窗口",
+          "time" : {
+            "start" : 1670470844708,
+            "stop" : 1670470844732,
+            "duration" : 24
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "输入报名信息，目前默认是姓名跟电话，姓名为邹酆任，电话为15031090844",
+          "time" : {
+            "start" : 1670470844733,
+            "stop" : 1670470845797,
+            "duration" : 1064
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "提交表单",
+          "time" : {
+            "start" : 1670470845797,
+            "stop" : 1670470845872,
+            "duration" : 75
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "断言是否报名成功",
+          "time" : {
+            "start" : 1670470845872,
+            "stop" : 1670470846978,
+            "duration" : 1106
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 4,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 6,
+      "hasContent" : true
+    }, {
+      "name" : "删除直播",
+      "time" : {
+        "start" : 1670470846979,
+        "stop" : 1670470849311,
+        "duration" : 2332
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "删除直播",
+        "time" : {
+          "start" : 1670470847288,
+          "stop" : 1670470848740,
+          "duration" : 1452
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "断言测试的直播是否删除成功",
+        "time" : {
+          "start" : 1670470848740,
+          "stop" : 1670470849311,
+          "duration" : 571
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 35,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_WebTv::0",
+    "time" : {
+      "start" : 1670470849312,
+      "stop" : 1670470849312,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1670470899238,
+      "stop" : 1670470901851,
+      "duration" : 2613
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "直播测试模块"
+  }, {
+    "name" : "epic",
+    "value" : "直播模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.Webtv"
+  }, {
+    "name" : "suite",
+    "value" : "test_webtv"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_WebTv"
+  }, {
+    "name" : "host",
+    "value" : "MS-20150602MKYO"
+  }, {
+    "name" : "thread",
+    "value" : "10120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Webtv.test_webtv"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8148bafbbecdeed.json",
+  "parameterValues" : [ ]
+}

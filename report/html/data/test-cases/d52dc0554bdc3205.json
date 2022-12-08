@@ -1,0 +1,589 @@
+{
+  "uid" : "d52dc0554bdc3205",
+  "name" : "test_contentcenter_create_new_form_apply",
+  "fullName" : "testcase.contentCenter.test_contentCenter.Test_contentCenter#test_contentcenter_create_new_form_apply",
+  "historyId" : "c2f954f8a06470f0953d3bb6f992d39b",
+  "time" : {
+    "start" : 1670470882019,
+    "stop" : 1670470896560,
+    "duration" : 14541
+  },
+  "description" : "\n        测试用例描述：\n        测试步骤：\n                1、先登录\n                2、进入到交互中心表单列表\n                3、创建交互中心表单\n                4、设置报名表单\n                5、报名\n        ",
+  "descriptionHtml" : "<pre><code>    测试用例描述：\n    测试步骤：\n            1、先登录\n            2、进入到交互中心表单列表\n            3、创建交互中心表单\n            4、设置报名表单\n            5、报名\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1670470803879,
+      "stop" : 1670470811822,
+      "duration" : 7943
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1670470806244,
+        "stop" : 1670470811822,
+        "duration" : 5578
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "打开网址",
+        "time" : {
+          "start" : 1670470806244,
+          "stop" : 1670470807433,
+          "duration" : 1189
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "输入账号：18874080626@139.com",
+        "time" : {
+          "start" : 1670470807433,
+          "stop" : 1670470807552,
+          "duration" : 119
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "输入密码:abc123",
+        "time" : {
+          "start" : 1670470807552,
+          "stop" : 1670470807637,
+          "duration" : 85
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击登录按钮",
+        "time" : {
+          "start" : 1670470807638,
+          "stop" : 1670470808122,
+          "duration" : 484
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "进入MA工作台",
+        "time" : {
+          "start" : 1670470809745,
+          "stop" : 1670470810098,
+          "duration" : 353
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  }, {
+    "name" : "xunit_setup_class_fixture_Test_contentCenter",
+    "time" : {
+      "start" : 1670470882018,
+      "stop" : 1670470882018,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        测试用例描述：\n        测试步骤：\n                1、先登录\n                2、进入到交互中心表单列表\n                3、创建交互中心表单\n                4、设置报名表单\n                5、报名\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开交互中心表单列表页面",
+      "time" : {
+        "start" : 1670470882019,
+        "stop" : 1670470882844,
+        "duration" : 825
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "打开的页面网址是https://wx.vipmaillist.com/contentCenter/toContentFormList?type=20",
+        "time" : {
+          "start" : 1670470882019,
+          "stop" : 1670470882844,
+          "duration" : 825
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "创建交互中心表单并设置表单内容",
+      "time" : {
+        "start" : 1670470882844,
+        "stop" : 1670470893985,
+        "duration" : 11141
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "点击新建表单按钮",
+        "time" : {
+          "start" : 1670470882844,
+          "stop" : 1670470883851,
+          "duration" : 1007
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "选择表单空白模板",
+        "time" : {
+          "start" : 1670470883851,
+          "stop" : 1670470883960,
+          "duration" : 109
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "交互中心表单名字是2022-12-08 11:41:23.961283自动化交互中心表单测试数据",
+        "time" : {
+          "start" : 1670470883961,
+          "stop" : 1670470884657,
+          "duration" : 696
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击确定",
+        "time" : {
+          "start" : 1670470884657,
+          "stop" : 1670470887085,
+          "duration" : 2428
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "跳到最后一个窗口",
+        "time" : {
+          "start" : 1670470887085,
+          "stop" : 1670470887094,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "设置新编辑器表单",
+        "time" : {
+          "start" : 1670470887094,
+          "stop" : 1670470889235,
+          "duration" : 2141
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "选择表单位置",
+          "time" : {
+            "start" : 1670470888758,
+            "stop" : 1670470888921,
+            "duration" : 163
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "选择系统表单",
+          "time" : {
+            "start" : 1670470888921,
+            "stop" : 1670470889006,
+            "duration" : 85
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "添加表单",
+          "time" : {
+            "start" : 1670470889006,
+            "stop" : 1670470889133,
+            "duration" : 127
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "发布表单",
+          "time" : {
+            "start" : 1670470889133,
+            "stop" : 1670470889235,
+            "duration" : 102
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 4,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 10,
+      "hasContent" : true
+    }, {
+      "name" : "提交表单",
+      "time" : {
+        "start" : 1670470893985,
+        "stop" : 1670470896560,
+        "duration" : 2575
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "打開交互中心表单页",
+        "time" : {
+          "start" : 1670470893985,
+          "stop" : 1670470894190,
+          "duration" : 205
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "报名",
+        "time" : {
+          "start" : 1670470894190,
+          "stop" : 1670470896560,
+          "duration" : 2370
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "跳到最后一个窗口",
+          "time" : {
+            "start" : 1670470894190,
+            "stop" : 1670470894218,
+            "duration" : 28
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "输入报名信息，目前默认是姓名跟电话，姓名为邹酆任，电话为15031090844",
+          "time" : {
+            "start" : 1670470894218,
+            "stop" : 1670470895871,
+            "duration" : 1653
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "提交表单",
+          "time" : {
+            "start" : 1670470895872,
+            "stop" : 1670470895964,
+            "duration" : 92
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "断言是否报名成功",
+          "time" : {
+            "start" : 1670470895964,
+            "stop" : 1670470896560,
+            "duration" : 596
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 4,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 6,
+      "hasContent" : true
+    }, {
+      "name" : "删除表单",
+      "time" : {
+        "start" : 1670470896560,
+        "stop" : 1670470899237,
+        "duration" : 2677
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "删除交互中心表单",
+        "time" : {
+          "start" : 1670470897134,
+          "stop" : 1670470898614,
+          "duration" : 1480
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "要删除的表单为：删除成功！",
+        "time" : {
+          "start" : 1670470899203,
+          "stop" : 1670470899203,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "断言测试的交互中心表单是否删除成功",
+        "time" : {
+          "start" : 1670470899203,
+          "stop" : 1670470899237,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 24,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_contentCenter::0",
+    "time" : {
+      "start" : 1670470899237,
+      "stop" : 1670470899237,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1670470899238,
+      "stop" : 1670470901851,
+      "duration" : 2613
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "交互中心模块"
+  }, {
+    "name" : "feature",
+    "value" : "交互中心表单测试模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.contentCenter"
+  }, {
+    "name" : "suite",
+    "value" : "test_contentCenter"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_contentCenter"
+  }, {
+    "name" : "host",
+    "value" : "MS-20150602MKYO"
+  }, {
+    "name" : "thread",
+    "value" : "10120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.contentCenter.test_contentCenter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d52dc0554bdc3205.json",
+  "parameterValues" : [ ]
+}

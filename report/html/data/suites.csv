@@ -1,0 +1,35 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Dec 08 11:41:09 CST 2022","Thu Dec 08 11:41:22 CST 2022","12813","testcase.content","test_content","Test_content","","","test_content_create_old_intro_old_form_apply","
+        测试用例描述：内容老简介页、老报名表单
+        测试步骤：
+                1、先登录
+                2、进入到我的内容列表
+                3、报名
+        "
+"passed","Thu Dec 08 11:40:49 CST 2022","Thu Dec 08 11:41:07 CST 2022","17711","testcase.activity","test_activity","Test_WebTv","","","test_activity_create_new_form_apply","
+        测试用例描述：
+        测试步骤：
+                1、先登录
+                2、进入到活动列表
+                3、创建活动
+                4、设置新编辑器活动报名表单
+                5、报名
+        "
+"passed","Thu Dec 08 11:41:22 CST 2022","Thu Dec 08 11:41:36 CST 2022","14541","testcase.contentCenter","test_contentCenter","Test_contentCenter","","","test_contentcenter_create_new_form_apply","
+        测试用例描述：
+        测试步骤：
+                1、先登录
+                2、进入到交互中心表单列表
+                3、创建交互中心表单
+                4、设置报名表单
+                5、报名
+        "
+"passed","Thu Dec 08 11:40:11 CST 2022","Thu Dec 08 11:40:46 CST 2022","35154","testcase.Webtv","test_webtv","Test_WebTv","","","test_old_webtv_create_apply","
+        测试用例描述：
+        测试步骤：
+                1、先登录
+                2、进入到直播列表
+                3、创建直播
+                4、设置直播报名表单
+                5、报名
+        "
